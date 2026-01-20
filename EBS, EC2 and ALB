@@ -1,0 +1,48 @@
+ AWS EC2 Beginner Project
+
+Project Overview
+This project is my first hands-on experience with AWS EC2.  
+The goal was to launch a simple Linux server, secure it properly, connect using SSH, and safely stop it to avoid unnecessary costs.
+
+This project helped me understand how cloud servers work in practice.
+
+---
+
+Tools & Services Used
+- Amazon Web Services (AWS)
+- EC2 (Elastic Compute Cloud)
+- Amazon Linux AMI
+- SSH
+- Security Groups
+- Linux Terminal
+
+---
+
+Project Objectives
+- Launch an EC2 instance using the AWS Console
+- Secure the instance using Security Groups
+- Connect to the instance via SSH
+- Run basic Linux commands
+- Stop the instance to manage costs
+
+---
+
+ Steps Performed
+
+1. Launched an EC2 Instance
+- AMI: Amazon Linux
+- Instance type: t2.micro (Free Tier eligible)
+- Key pair created for SSH access
+- Instance named: `beginner-ec2-server`
+
+---
+
+2. Configured Security Group
+- Allowed SSH (port 22)
+- Restricted access to **My IP only**
+
+This ensures that only my computer can access the server.
+
+---
+
+3. Connected to the Instance via EC2 Instance Connect
